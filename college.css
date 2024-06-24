@@ -1,0 +1,163 @@
+
+body{
+    overflow-x: hidden;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(47, 47, 230);
+    height: 90px;
+    align-items: center;
+    top:0%;
+    position: sticky;
+}
+.nav ul{
+    display: flex;
+    list-style: none;
+    gap:30px;
+    color:white
+    
+}
+nav label{
+    display: none;
+}
+#check{
+    display: none;
+}
+#check:checked~.nav ul{
+    display: block;
+}
+.nav label i{
+    color: white;
+}
+@media screen and (max-width:600px){
+    .nav{
+        height: 100px;
+    }
+    .nav label{
+        display: block;
+    }
+    .nav ul{
+        display: none;  
+        background-color: blueviolet;
+        position: absolute;
+        width: 100%;
+        height: 200px;
+        top:100px;
+    }
+    
+}
+.heading{
+    text-align: center;
+    font-style: italic;
+}
+.img{
+   display: flex;
+   justify-content: space-around;
+   margin-top: 20px;
+   flex-wrap: wrap;  
+}
+.a1{
+    text-align: center;
+    font-style: oblique;
+}
+
+.place h2{
+    text-align: center;
+    background-color: rgb(8, 8, 151);
+}
+.p1{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.bank{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.gyan{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.h1{
+    text-align: center;
+}
+.center{
+    text-align: center;
+}
+.Award{
+    background-color: rgb(60, 60, 209);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+.ch{
+    border-radius: 5px;
+    height: 300px;
+}
+.get{
+    background-color: rgb(25, 25, 211);
+    height: 100px;
+    text-align: center;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+.b1{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-transform: capitalize;
+    border-radius: 2px;
+    color: rgb(15, 15, 221);
+    
+}
+.b2{
+    margin-top: 40px;
+    text-transform: capitalize;
+    border-radius: 2px;
+    color: rgb(15, 15, 221);
+}
+.footer {
+    background-color: rgb(255, 160, 122);
+
+}
+.wrap{
+    flex-wrap: wrap;
+}
+.foot{
+    padding-top: 20px;
+}
+.bu:hover{
+    background-color: rgb(5, 5, 119);
+    color: white;
+}
+.logo{
+    padding-top: 20px;
+}
+.link{
+    display: flex;
+    justify-content:space-evenly
+}
+.facebook{
+    color: rgb(2, 98, 194);
+}
+.intragram{
+    color: rgb(155, 4, 79);
+}
+.teligram{
+    color: rgb(15, 68, 167);
+}
+.envelope{
+    color:rgb(2, 106, 148) ;
+}
+.parent1{
+    display: flex;
+    justify-content:space-around;
+    line-height: 40px;
+     flex-wrap: wrap;
+}
+
+
+
